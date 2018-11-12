@@ -1,11 +1,11 @@
 package com.example.ds.stack;
 
-public class Stack {
+public class StackArray {
 
     private int tos = -1;
     private int a[];
 
-    public Stack(int size) {
+    public StackArray(int size) {
         a = new int[size];
     }
 
@@ -38,7 +38,7 @@ public class Stack {
     }
 
     public static void main(String[] args) {
-        Stack stack = new Stack(10);
+        StackArray stack = new StackArray(10);
         stack.print();
         stack.pop();
         stack.push(10);
