@@ -28,6 +28,7 @@ public class SinglyLinkedList {
     private boolean isEmpty() {
         return null == head;
     }
+
     public void addAtStart(int data) {
         Node node = new Node(data);
         if (isEmpty()) {
